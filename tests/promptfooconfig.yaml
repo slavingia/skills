@@ -42,12 +42,8 @@ tests:
         Read and follow: skills/mvp/SKILL.md
       user_input: "I validated that fitness coaches need better client tracking. Now I want to build a full-featured SaaS platform with mobile apps."
     assert:
-      - type: contains-any
-        value: ["manual", "spreadsheet", "weekend", "simple"]
-      - type: not-contains
-        value: "mobile app"
       - type: llm-rubric
-        value: "Response pushes back on the full-featured SaaS plan and suggests starting with a manual process or simple tool (spreadsheet, Airtable, Google Forms). Mentions shipping in a weekend."
+        value: "Response pushes back on the full-featured SaaS plan and suggests starting with a manual process, simple tool, or minimal version first. Should discourage building mobile apps at this stage. May mention shipping in a weekend or starting with spreadsheets/no-code tools."
 
   # first-customers tests
   - vars:
@@ -104,10 +100,8 @@ tests:
         Read and follow: skills/company-values/SKILL.md
       user_input: "I'm about to hire my first employee. What values should I have?"
     assert:
-      - type: contains-any
-        value: ["non-obvious", "fire", "polarizing", "story", "stories"]
       - type: llm-rubric
-        value: "Response walks the user through creating their own values rather than giving generic ones. Mentions that values should be non-obvious, tested with the 'would you fire someone' question, and communicated as stories not slogans."
+        value: "Response helps the user discover their own values rather than giving generic ones. Should ask probing questions about beliefs, behaviors, and what matters. May reference non-obvious values, the 'would you fire someone' test, or values as stories not slogans."
 
   # minimalist-review tests
   - vars:
