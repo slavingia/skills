@@ -4,6 +4,14 @@ Claude Code skills based on [The Minimalist Entrepreneur](https://www.minimalist
 
 ## Installation
 
+### Quick Install (Recommended)
+
+```bash
+npx skills add slavingia/skills
+```
+
+### Manual Install
+
 Clone the repo locally, then install as a Claude Code plugin:
 
 ```bash
