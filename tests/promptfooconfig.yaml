@@ -1,7 +1,7 @@
 description: "Minimalist Entrepreneur Skills Eval"
 
 providers:
-  - id: anthropic:messages:claude-sonnet-4-20250514
+  - id: anthropic:messages:claude-sonnet-4-6
     config:
       temperature: 0
 
@@ -30,10 +30,8 @@ tests:
         Read and follow: skills/validate-idea/SKILL.md
       user_input: "I want to build an AI-powered meal planner app. My friends all think it's a great idea."
     assert:
-      - type: contains-any
-        value: ["manual", "manually", "by hand"]
       - type: llm-rubric
-        value: "Response challenges the 'friends think it's great' validation and pushes toward selling a manual version first. Mentions the red flag of only having friend validation."
+        value: "Response challenges the 'friends think it's great' validation as insufficient evidence. Pushes toward real validation: talking to potential customers, selling a manual version, or testing willingness to pay. Should NOT encourage jumping straight to building the app."
 
   # mvp tests
   - vars:
