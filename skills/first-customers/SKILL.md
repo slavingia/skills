@@ -1,76 +1,64 @@
 ---
 name: first-customers
-description: Create a strategy for selling to your first 100 customers using the minimalist entrepreneur playbook. Use when someone has a product and needs to find customers, or is struggling with early sales.
+description: >
+  Use when someone has a product and needs to find their first paying customers,
+  or is struggling with early sales and wondering how to get traction.
+  Triggers: "how do I get customers", "nobody is buying", "ready to launch",
+  "need first sales", "cold outreach", "finding customers".
 ---
 
-You are a business advisor channeling the philosophy of The Minimalist Entrepreneur by Sahil Lavingia. Help the user sell to their first 100 customers.
+Help the user sell to their first 100 customers using the Minimalist Entrepreneur playbook.
 
-## Core Principle
+## Shared Conventions
 
-**Skip the launch. Focus on selling.** "Viral success" is a myth. There is no such thing. Every seemingly overnight success is built on months or years of hard work. Your job is to sell one by one, learn from each interaction, and build momentum.
+Read `_shared/conventions.md` for cross-skill standards. Read `gotchas.md` before generating any output.
 
-## The Concentric Circles of Sales
+## Core Framework: Concentric Circles
 
-Sell outward from the people who care most about you to the people who care least:
+Sell outward from the people who care most to the people who care least:
 
-### Circle 1: Friends and Family
-- Start here. Yes, it's uncomfortable. Do it anyway.
-- Pitch them on being your first customers, not investors
-- They trust you more than anyone else. If they won't buy, who will?
-- Ask for their honest feedback, not social media posts
-- Kickstarter says: "Support always begins with people you know"
+| Circle | Who | Action |
+|--------|-----|--------|
+| 1. Friends & Family | People who trust you | Pitch them as customers (not investors). Ask for honest feedback, not social media posts. |
+| 2. Community | Subject matter experts who understand the problem | Make a list of everyone in the space. Contact each personally. Walk them through the product. |
+| 3. Strangers | Cold outreach targets | Personalized emails, one by one. See `references/cold-outreach-template.md` for Sahil's template. |
 
-### Circle 2: Your Community
-- The community you identified and have been contributing to
-- These are subject matter experts who understand the problem
-- Three steps:
-  1. **Make a list of everyone** who has written or shared anything about a similar business
-  2. **Contact them all personally** — walk them through your product, offer a free meal, do it hundreds of times
-  3. **Ask for candid feedback** — not reviews or social posts, just honest feedback
+Never skip a circle. Discomfort is not a reason to jump to strangers.
 
-### Circle 3: Strangers (Cold Outreach)
-- Cold emails, calls, messages — this works. It's how Gumroad grew.
-- Sahil literally scoured the web for people who could benefit from Gumroad and emailed them personally, thousands of times
-- Example cold email:
-  > "Hi John, I saw you're selling a PDF on your website using PayPal, and manually emailing everyone who buys the PDF. I built a service called Gumroad which basically automates all of this. I'd love to show it to you, or you can check it out yourself: gumroad.com. Also happy to just share any learnings we see from creators in a little PDF we have. Let me know! Best, Sahil"
-- Don't copy/paste. Each email refines your ability to write better ones
-- Use each rejection as a learning opportunity
+## Sales Reframe
 
-## Sales is Not a Dirty Word
+You are not convincing anyone. You are helping people solve a problem they already have.
 
-Reframe how you think about sales:
-- You're not convincing anyone. You're helping people.
-- You already have a relationship with your community
-- You're selling a product that adds value to their life
-- Turn every failed conversion into an insight — either wrong person, or product needs work
-- Sales is an education process: your customers get to know you, you get to know what's working
+- Every failed conversion = insight (wrong person, or product needs work)
+- Sales is education: customers learn about you, you learn what works
+- If friends and family won't buy, strangers definitely won't
 
-## Pricing (Charge Something!)
+## Tool Integration
 
-- There is a massive difference between free and $1 (the "zero price effect")
-- Two ways to charge:
-  - **Cost-based**: Your costs + a margin (e.g., 20-50%)
-  - **Value-based**: What it's worth to the customer, regardless of your costs
-- Start low and raise prices over time as your product improves
-- Pricing is iterative, just like everything else. It's not permanent.
-- Goal: eventually move to tiered pricing as you build brand and value
+Use `web_search_exa` (Exa MCP) to find prospects in the user's niche:
+- Search for people discussing the problem the product solves
+- Search for competitors' customers who might be underserved
+- Search for communities and forums where target users gather
+- Always find the PERSON (decision maker), not just the company
 
 ## Key Metrics
 
-- **Manual sales = 99% of early growth.** Word of mouth = 99% of later growth.
-- You need far fewer customers than you think. Slack's IPO: 575 customers = 40% of revenue.
-- If your product costs $10/month, you need 200 customers for $2,000/month. At one customer per business day, that's less than a year.
-- **Product-market fit** = repeat customers who sign up and use your product on their own
+- Manual sales = 99% of early growth. Word of mouth = 99% of later growth.
+- 1 customer/business day = 200 customers in under a year at $10/month
+- Product-market fit = repeat customers who sign up and use on their own
+- Don't "launch" until 100 paying customers. Launch is a celebration, not acquisition.
 
-## When to "Launch"
+## Pricing Reminder
 
-Don't launch until you have 100 paying customers. Then launch as a celebration of your community's support, not as a customer acquisition strategy. Throw a party. Thank your customers. Invite them.
+- Massive difference between free and $1 (zero price effect)
+- Start with cost-based or value-based pricing, raise over time
+- Pricing is iterative, not permanent
 
 ## Output
 
 Help the user create:
 1. A list of 10 friends/family to pitch this week
 2. A list of 10 community members to reach out to
-3. A cold outreach template (personalized, not copy-paste)
-4. Their initial pricing strategy
-5. A weekly sales goal and tracking method
+3. A personalized cold outreach draft (not copy-paste) — reference `references/cold-outreach-template.md`
+4. Initial pricing strategy
+5. Weekly sales goal and tracking method

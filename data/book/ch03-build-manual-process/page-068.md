@@ -1,0 +1,9 @@
+---
+title: "Page 68"
+chapter: "Build a Manual Valuable Process First"
+chapter_number: 3
+page: 68
+tokens: 404
+---
+
+We began this chapter talking about momentum. Let’ s end it talking about confidence: as you build the solution you’ll sell to your first customer , you will also gain the momentum and confidence to know you’re on the right track and to take the next leap forward. If you’re lucky , you may be able to get away with building almost nothing. If you’ve solved a real pain point for real people, they won’t fault the simplicity but appreciate you for it. Some will even ask to pay . This is the exciting part: you made your first $1 on the internet. You crossed the great divide from zero to one. You started. [head A] Key takeaways [bullet] - Refine a manual valuable process before building a minimum viable product. - The faster the feedback loop you have with your customers, the faster you’ll get to a solution they will pay for . The fastest feedback loop will be one you have with yourself. - Before you build anything at all, see how little you can get away with charging for . Even later , build only the things you need to build. Outsource the rest. - I define “product-market” fit as having repeat customers who sign up and use your product on their own so that you can start to focus on outbound sales. [head A] Learn more [bullet] - Getting Real , a free “book” about building a web app by Basecamp, available online at https://basecamp.com/books/getting-real - The Mom T est , a book on how to talk–and listen–to customers, by Rob Fitzpatrick - Join Hacker News, a community for those building profitable online businesses - Follow Daniel V assallo @dvassallo on Twitter . He made a living on Gumroad before joining as our quarter-time Head of Product. (More on this in Chapter Seven.) 68

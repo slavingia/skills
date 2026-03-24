@@ -1,0 +1,9 @@
+---
+title: "Page 26"
+chapter: "Community First"
+chapter_number: 2
+page: 26
+tokens: 372
+---
+
+creator platforms were still new , but the rise of no-code solutions has made building and charging for podcasts, video and audio content, online courses, virtual teaching, and virtual coaching almost seamless so that starting a business around something you love has never been more attainable. You probably have something you enjoy , something that on its face has nothing to do with your “real” job. Maybe it’ s marathon running or ceramics or electronic music or another passion that you pursue in your free time. Whatever it is, building a minimalist business around the people you love to spend time with and the ways you love to spend your time depends on being part of an authentic community . You may already be thinking about how to solve the problems of a current community you participate in or you may simply be planning to join a community based on something you love. Either way, finding your people is really important at the beginning. Not just for the sake of your business but also for the sake of your own well-being. Taking writing and painting classes in Provo reminded me that my community wasn’t just the people in front of me, it was also a wider group who wanted, like me, to “turn their passions into livelihoods.” The real communities I was a part of didn’t care about 25 growth at all costs; that kind of accelerated expansion would have cracked them into a million little pieces. Instead, their priority , like mine, was connecting to each other in ways that allowed for the space, time, and freedom to explore their interests and to eventually transform their passions into businesses in meaningful ways. [head A] Find your people [INSER T ART3] 25 000 passions into livelihoods : Jin, “The Passion Economy and the Future of Work.” 26

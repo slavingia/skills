@@ -1,0 +1,9 @@
+---
+title: "Page 82"
+chapter: "Sell to Your First 100 Customers"
+chapter_number: 4
+page: 82
+tokens: 377
+---
+
+Jaime Schmidt never launched Schmidt’ s Naturals, a natural deodorant brand she founded in 2010. Instead she celebrated small milestones along the way before eventually selling her company for more than $100 million in 2017 to Unilever . When Jaime was pregnant with her son, she started a deep dive into the world of natural personal care products after taking a class in DIY shampoo. While there were hundreds of recipes for soaps and lotions available, there were few , if any , recipes for deodorant even though many people were concerned about ingredients in traditional formulations. Jaime had tried all of the natural deodorants but had found that none of them worked for her, so she decided to make one herself. She experimented for months until she found 63 an ef fective formulation and landed on a scent, cedarwood, that she loved. Six months after the shampoo class, she had a product line of lotions and deodorant, and she was ready to sell to her first customers. 64 Since you already know that Jaime sold her company to Unilever , I bet you’re thinking that her business took of f immediately , but I’ll remind you that overnight success is a myth. It’ s not going to happen for you, and it didn’t happen for Jaime either . She set up a simple website and a Facebook page for her business where she posted articles, recipes, and information. In the first months, she sold her products on consignment at 65 65 000 articles, recipes, and information : Schmidt, Supermaker, 38. 64 000 to sell to her first customers : Schmidt, Supermaker , 38. 63 000 she decided to make one herself : Jaime Schmidt, Supermaker: Crafting Business on Your Own Terms (San Francisco: Chronicle Prism, 2020), 24. 82

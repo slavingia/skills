@@ -1,0 +1,9 @@
+---
+title: "Page 84"
+chapter: "Sell to Your First 100 Customers"
+chapter_number: 4
+page: 84
+tokens: 396
+---
+
+Staying hyper tuned in to my customers always guided and served me.” Not sales. Not marketing. Customers, educating, and being educated. Launch to celebrate A launch is a stepping stone. A thing that happens when your business already has customers, is doing well, and is going to last. Many companies go out of business within the first year . Why make a big deal out of a business before you’re sure it’ll stick around? Instead, build a successful business and “launch” as a celebration of your success. Spend your business’ s profits on it, not your own money . Better yet, celebrate your customers’ success. I think celebrating a milestone is a great excuse to launch. What about having successfully sold 100 customers? Once you’re running a growing profitable business with a hundred customers who love you and who you care about, you can celebrate them–by launching. Throw a party . Invite all of your customers and thank them for their ongoing support. Do that, and you’ll have customers lining up at your door. They’ll be people you already know , and who know you. Some of them will bring their own friends and families and maybe even members of their own communities too. They may even help promote your event before it happens, because you’ve told them about it and they’re excited about supporting you. Plus, they can actually speak to how great your product is, and how much better you’ve made their life. Your customers may be even better salespeople than you are. Good–there’ s more of them than there are of you! Once you have a hundred customers, some of them now repeat customers, selling your product better than you can, you’ll know you’re ready to move onto the next chapter of your business: marketing. [INSER T ART21] 84

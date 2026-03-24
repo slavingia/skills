@@ -1,0 +1,9 @@
+---
+title: "Page 133"
+chapter: "Build the House You Want to Live In"
+chapter_number: 7
+page: 133
+tokens: 379
+---
+
+[bullet] - While we often work in silos, we do not ship alone. Everything we send to creators is of the highest quality , meaning that *everything* is reviewed by multiple people on the Gumroad team, our creators (they're first!), and other folks in our broader community . For example, I published my Work article after addressing 600 comments from 150 people. That is extreme, but it meant hundreds of thousands of people read something better . - We are okay with employee churn (in fact, I encourage it) if it helps us ship a superior product. Lastly , it should be considered a failure to receive feedback on something that could have made a creator's life better *after* you shipped . [End extract] [head B] Seek superlinearities This value is a way to define and to encourage growth. Though superlinearity is a mathematical concept referring to a function that eventually grows faster than any linear one, at Gumroad it represents our willingness to learn at a constantly accelerating rate. How I communicate this internally: [extract; PE: please preserve bold] We have a fixed number of hours, and an unlimited amount of creator income to actualize. Everything we do should contribute to our creators' bottom lines in a measurable and scalable way . Every day you are producing superlinear returns on your time investment. Often this means that one’ s job at Gumroad changes quickly . It also means they may outgrow their role and leave Gumroad to start their own company . Great! [head B] Everyone is a CEO This value is about building a company of like-minded people. I’m a CEO, and I think it’ s a pretty great job, so I want to create a company full of them. How I communicate this internally: [extract; PE: please preserve bold] 133

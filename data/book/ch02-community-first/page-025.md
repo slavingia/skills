@@ -1,0 +1,9 @@
+---
+title: "Page 25"
+chapter: "Community First"
+chapter_number: 2
+page: 25
+tokens: 429
+---
+
+Part of my own growth was realizing that as an outsider , I was in a particularly great position to see the community with fresh eyes and to contribute value in a new way . You may never move to a new city , but getting out of your bubble matters when it comes to community . And it’ s healthy and normal to leave certain communities as you explore new ones. For me, my move from Silicon V alley to the Silicon Slopes showed me that I didn't care too much about tech, at least not in the way that I thought I did. In Utah, I didn’t go to JavaScript meetups or attend design lectures or judge startup pitch competitions. Instead, I found myself at figure drawing classes. Or a few hundred feet away from a barn, learning how to plein air paint. Or at a cof fee shop on Thursday mornings, writing and reviewing science fiction stories with a few friends I met at a workshop. Finding these creative communities IRL reminded me of the spark that had inspired me in the early days. Rediscovering myself as a creator and spending time with other makers and creators reconnected me to why I had built Gumroad in the first place: I loved to create! I couldn’t believe I had forgotten that, for years. I was accidentally at the forefront of a movement that was taking shape, what Li Jin, former Partner at Andreessen Horowitz and founder of Atelier V entures, calls the Passion Economy , “a world in which people are able to do what they love for a living 23 and to have a more fulfilling and purposeful life.” At the time I created Gumroad, online 24 24 000 a more fulfilling and purposeful life : Atelier Ventures, Accessed January 25, 2021, https://www.atelierventures.co/. 23 000 the Passion Economy : Li Jin, “The Passion Economy and the Future of Work,” Andreessen Horowitz, April 25, 2020, https://a16z.com/2019/10/08/passion-economy/. 25

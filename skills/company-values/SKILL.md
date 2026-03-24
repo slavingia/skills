@@ -1,80 +1,50 @@
 ---
 name: company-values
-description: Help define company values and culture for a minimalist business. Use when someone is setting up their company culture, preparing to hire, or wanting to codify what their company stands for.
+description: Use when defining company culture, preparing to hire, or codifying what a company stands for. Triggers on "what should our values be?", "how do I build culture?", or "we're about to hire."
 ---
 
-You are a business advisor channeling the philosophy of The Minimalist Entrepreneur by Sahil Lavingia. Help the user define their company values — the foundation of their culture.
+Review `_shared/conventions.md` before executing. Review `gotchas.md` for common failure modes.
 
 ## Core Principle
 
-**Focus on culture before hiring.** Before you hire anyone, define what kind of company people want to work for. Values are how you do that. They're not generic two-word commandments — they're for stating the non-obvious, in non-obvious ways.
+**Define culture before hiring.** Values tell employees how to behave every day AND in extreme situations. They attract the right people and repel the wrong ones — both outcomes are valuable. Values supersede any individual founder.
 
-## Why Values Matter
+## 5-Question Values Creation Process
 
-- Values tell employees how to behave every day AND in extreme situations
-- They're more efficient than 1,000-page manuals — good values stick in the brain
-- They attract the right people ("THIS IS EXACTLY THE JOB FOR ME!") and repel the wrong ones ("this isn't for me") — both are valuable
-- They let you hold yourself AND your team accountable
-- Values supersede you. They allow the company to scale beyond your personal involvement.
+Walk the user through these questions. Each one surfaces a real value:
 
-## Gumroad's Values (As Starting Points)
-
-### 1. Judged by the Work
-- What matters is the experience creators and customers have
-- "Everything we send to creators is of the highest quality, meaning everything is reviewed by multiple people"
-- "We are okay with employee churn if it helps us ship a superior product"
-- "It should be considered a failure to receive feedback on something that could have made a creator's life better AFTER you shipped"
-
-### 2. Seek Superlinearities
-- A function that eventually grows faster than any linear one
-- "We have a fixed number of hours, and an unlimited amount of creator income to actualize"
-- "Every day you are producing superlinear returns on your time investment"
-- People may outgrow their role and leave to start their own company — that's great
-
-### 3. Everyone is a CEO
-- "You are the CEO of your function, and it is your responsibility to make sure it is executing at a high level"
-- "Think like a CEO asking for approval from their board, not like an employee asking their manager for direction"
-- "If someone needs to ask you how things are going, they are not going well"
-
-### 4. Dare to Be Open
-- "If there's a Gumroad secret, it's this one: we aim for complete information symmetry"
-- Make onboarding documents public, share financials on Twitter
-- Disclose everyone's salary to the whole company
-- No meetings, no secrets, no FOMO
-
-## How to Create Your Own Values
-
-Walk the user through:
-
-1. **What do you believe that most people don't?** Values should be non-obvious and sometimes polarizing.
-
+1. **What do you believe that most people don't?** Values should be non-obvious, sometimes polarizing.
 2. **How should people behave when no one is watching?** Values are for the moments without a manager present.
-
 3. **What would you fire someone for, even if they're performing well?** That reveals your true values.
-
-4. **What would you celebrate, even if it didn't directly help the bottom line?** That's also a value.
-
+4. **What would you celebrate, even if it didn't help the bottom line?** That is also a value.
 5. **Write them as stories, not slogans.** "Focus on the user" is a slogan. Nordstrom accepting tire returns at a clothing store is a value communicated through story.
 
-## Operationalizing Values
+## Operationalization
 
-- Communicate them publicly — in job posts, on your website, in your onboarding
-- Use them in feedback: "This aligns with our value of X" or "This doesn't reflect our value of Y"
-- Revisit them regularly — values evolve as your company grows
-- Simply Eloped uses the acronym CACAO: Customer-centric, Ambitious, Compassionate, Adaptable, Ownership
+Values that live on a wall poster are not values. They must show up in daily behavior:
 
-## Remote Work and Accountability
+| Where | How |
+|-------|-----|
+| Job posts & website | Publish values publicly — filter candidates before they apply |
+| Hiring interviews | Ask for examples of each value. "Tell me about a time you..." |
+| Feedback & reviews | "This aligns with our value of X" / "This doesn't reflect Y" |
+| Decision-making | When stuck, ask which option best reflects your values |
+| Onboarding | New hires read values with stories on day one |
+| Regular revisiting | Values evolve as the company grows — review annually |
 
-If you're remote (and you probably should be):
-- All communication is thoughtful and asynchronous
-- Use Slack for near-immediate, GitHub for async code review, Notion for long-term documentation
-- People signal when they're doing deep work and set their own schedules
-- Build around availability, not surveillance
+## Tool Integration
+
+Mostly advisory. Use `qmd query "<topic>" -c minimalist-entrepreneur` for Gumroad values examples and the Simply Eloped CACAO story.
+
+See `references/gumroad-values.md` for detailed value examples with quotes.
 
 ## Output
 
 Help the user draft:
-1. 3-5 company values with descriptions and example stories
-2. How each value should show up in hiring decisions
-3. How each value should show up in day-to-day work
-4. Anti-patterns for each value (what it does NOT mean)
+
+| Deliverable | Detail |
+|-------------|--------|
+| 3-5 values | Each with a name, description, and illustrative story |
+| Hiring applications | How each value shows up in interview questions |
+| Daily applications | How each value guides day-to-day decisions |
+| Anti-patterns | What each value does NOT mean (prevents misinterpretation) |
