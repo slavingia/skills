@@ -1,0 +1,122 @@
+description: "Minimalist Entrepreneur Skills Eval"
+
+providers:
+  - id: anthropic:messages:claude-sonnet-4-20250514
+    config:
+      temperature: 0
+
+prompts:
+  - "{{skill_context}}\n\nUser: {{user_input}}"
+
+tests:
+  # find-community tests
+  - vars:
+      skill_context: |
+        You are using the /find-community skill from The Minimalist Entrepreneur.
+        Read and follow: skills/find-community/SKILL.md
+      user_input: "I'm a software engineer who's been doing CrossFit for 5 years. I want to start a business but don't know where to begin."
+    assert:
+      - type: contains
+        value: "community"
+      - type: not-contains
+        value: "build a product first"
+      - type: llm-rubric
+        value: "Response asks questions about which communities the user belongs to and helps identify problems worth solving. Does NOT suggest building a product before finding a community."
+
+  # validate-idea tests
+  - vars:
+      skill_context: |
+        You are using the /validate-idea skill from The Minimalist Entrepreneur.
+        Read and follow: skills/validate-idea/SKILL.md
+      user_input: "I want to build an AI-powered meal planner app. My friends all think it's a great idea."
+    assert:
+      - type: contains-any
+        value: ["manual", "manually", "by hand"]
+      - type: llm-rubric
+        value: "Response challenges the 'friends think it's great' validation and pushes toward selling a manual version first. Mentions the red flag of only having friend validation."
+
+  # mvp tests
+  - vars:
+      skill_context: |
+        You are using the /mvp skill from The Minimalist Entrepreneur.
+        Read and follow: skills/mvp/SKILL.md
+      user_input: "I validated that fitness coaches need better client tracking. Now I want to build a full-featured SaaS platform with mobile apps."
+    assert:
+      - type: contains-any
+        value: ["manual", "spreadsheet", "weekend", "simple"]
+      - type: not-contains
+        value: "mobile app"
+      - type: llm-rubric
+        value: "Response pushes back on the full-featured SaaS plan and suggests starting with a manual process or simple tool (spreadsheet, Airtable, Google Forms). Mentions shipping in a weekend."
+
+  # first-customers tests
+  - vars:
+      skill_context: |
+        You are using the /first-customers skill from The Minimalist Entrepreneur.
+        Read and follow: skills/first-customers/SKILL.md
+      user_input: "I have a working MVP for invoice management for freelancers. How do I get users? Should I do a Product Hunt launch?"
+    assert:
+      - type: contains-any
+        value: ["friends", "family", "community", "cold email", "personally"]
+      - type: llm-rubric
+        value: "Response de-emphasizes launches and instead focuses on concentric circles: friends/family first, then community, then cold outreach. Suggests selling one-by-one, not launching."
+
+  # pricing tests
+  - vars:
+      skill_context: |
+        You are using the /pricing skill from The Minimalist Entrepreneur.
+        Read and follow: skills/pricing/SKILL.md
+      user_input: "I'm thinking of offering my tool for free to get users first, then adding a paid tier later."
+    assert:
+      - type: contains-any
+        value: ["charge", "zero price", "$1", "free"]
+      - type: llm-rubric
+        value: "Response strongly pushes back on free-first strategy, citing the zero price effect. Recommends charging something from day one. May mention Dan Ariely or the 'massive difference between free and $1'."
+
+  # marketing-plan tests
+  - vars:
+      skill_context: |
+        You are using the /marketing-plan skill from The Minimalist Entrepreneur.
+        Read and follow: skills/marketing-plan/SKILL.md
+      user_input: "I have 20 customers for my SaaS. Should I start spending on Facebook ads to grow?"
+    assert:
+      - type: contains-any
+        value: ["100 customers", "product-market fit", "organic", "content"]
+      - type: llm-rubric
+        value: "Response notes the user likely doesn't have product-market fit yet (only 20 customers) and redirects toward organic content marketing before paid ads. May suggest the user isn't ready for marketing yet."
+
+  # grow-sustainably tests
+  - vars:
+      skill_context: |
+        You are using the /grow-sustainably skill from The Minimalist Entrepreneur.
+        Read and follow: skills/grow-sustainably/SKILL.md
+      user_input: "We're growing fast and a VC wants to give us $2M. Should we take it?"
+    assert:
+      - type: contains-any
+        value: ["profitable", "profitability", "bootstrap", "control"]
+      - type: llm-rubric
+        value: "Response asks whether the business is already profitable and explores whether VC money is actually needed. Mentions that profitability gives leverage and control."
+
+  # company-values tests
+  - vars:
+      skill_context: |
+        You are using the /company-values skill from The Minimalist Entrepreneur.
+        Read and follow: skills/company-values/SKILL.md
+      user_input: "I'm about to hire my first employee. What values should I have?"
+    assert:
+      - type: contains-any
+        value: ["non-obvious", "fire", "polarizing", "story", "stories"]
+      - type: llm-rubric
+        value: "Response walks the user through creating their own values rather than giving generic ones. Mentions that values should be non-obvious, tested with the 'would you fire someone' question, and communicated as stories not slogans."
+
+  # minimalist-review tests
+  - vars:
+      skill_context: |
+        You are using the /minimalist-review skill from The Minimalist Entrepreneur.
+        Read and follow: skills/minimalist-review/SKILL.md
+      user_input: "I'm thinking of spending $50K on a rebrand and new website before we have product-market fit."
+    assert:
+      - type: contains-any
+        value: ["simplify", "profitability", "customers", "manual"]
+      - type: llm-rubric
+        value: "Response clearly recommends against spending $50K before product-market fit. Applies minimalist principles: spend time not money, build as little as possible, focus on customers not branding."
