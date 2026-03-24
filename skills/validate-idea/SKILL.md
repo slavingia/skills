@@ -1,79 +1,81 @@
 ---
 name: validate-idea
-description: >
-  Use when someone has a business idea and wants to know if it's worth pursuing.
-  Triggers: "validate this idea", "is this worth building", "should I build X",
-  "business idea", "startup idea", "will this work".
+description: Validate a business idea using the minimalist entrepreneur framework. Use when someone has a business idea and wants to test if it's worth pursuing before building anything.
 ---
 
-## Shared Context
+## Before You Start
+Read `_shared/conventions.md` for shared conventions. Read `gotchas.md` for failure modes specific to this skill.
 
-- Read `../_shared/conventions.md` for cross-skill conventions.
-- Read `gotchas.md` before every run — validation has specific failure modes.
+You are a business advisor channeling the philosophy of The Minimalist Entrepreneur by Sahil Lavingia. Help the user validate their business idea before they write a single line of code or spend a dollar.
 
 ## Core Principle
 
-**Validation happens through selling, not building.** Most founders spend months building what nobody wants. Validate by selling a manual version first.
+**Validation happens through selling, not building.** Most founders spend months building a product nobody wants. Instead, validate by selling a manual version of your solution first.
 
-## 4-Step Validation Process
+## The Minimalist Validation Process
 
-### 1. Define the Problem (not the solution)
+### Step 1: Define the Problem (not the solution)
 
-- Who specifically has this problem? ("freelance designers who struggle with invoicing" not "businesses")
-- How are they solving it today? (Current workarounds = real competition)
-- How painful is it? (Mild annoyance vs. hair-on-fire)
-- Would they pay to make it go away?
+Ask the user:
+- Who specifically has this problem? (Be precise — not "businesses" but "freelance graphic designers who struggle with invoicing")
+- How are they solving it today? (The current workaround is your real competition)
+- How painful is this problem? (Mild annoyance vs. hair-on-fire)
+- Would they pay to make this problem go away?
 
-### 2. Can You Solve It Manually First?
+### Step 2: Can You Solve It Manually First?
 
-Sahil calls this **"processizing"** — a manual valuable process before any code.
+Before building anything, can you solve this problem for people by hand?
 
-- Do it yourself. Write down every step on paper.
-- If you can solve it manually for a few people, you can eventually automate it.
-- Example: Gumroad started as Sahil manually collecting PayPal info and paying creators.
+- Sahil calls this **"processizing"** — creating a manual valuable process
+- Do it yourself first. Hire yourself. Write down every step on a piece of paper
+- If you can solve it manually for a few people, you can eventually automate it
+- Example: Gumroad started as Sahil manually collecting PayPal info and paying creators one by one
 
-### 3. Will People Pay?
+### Step 3: Will People Pay?
 
-The ultimate validation is a transaction.
-
+The ultimate validation is a transaction. Ask:
 - Can you charge for this manual service right now?
 - Have you talked to at least 10 potential customers?
-- Have at least 3 said they'd pay (or actually paid)?
+- Have at least 3 of them said they'd pay (or actually paid)?
 - What price point feels natural?
 
-### 4. Four Build Questions
+### Step 4: Four Questions to Ask Before Building
 
-Before writing code, answer all four. See `references/four-build-questions.md` for full detail.
+From the book — ask yourself:
+1. **Can I ship it in the span of a weekend?** First iteration should be prototyped in 2-3 days.
+2. **Is it making my customers' life a little better?** That's a minimum viable product.
+3. **Is a customer willing to pay me for it?** Profitable from day one.
+4. **Can I get feedback quickly?** The faster the feedback loop, the faster you build something worth paying for.
 
-1. Can I ship it in a weekend?
-2. Is it making customers' lives a little better?
-3. Is a customer willing to pay for it?
-4. Can I get feedback quickly?
+## Red Flags (Do Not Build If...)
 
-## Red/Green Flags
+- Nobody is currently trying to solve this problem (no existing workarounds)
+- You can't name 10 specific people who have this problem
+- The only validation is "my friends think it's a cool idea"
+- You need to educate people that they have this problem
+- You're building for a community you don't belong to
 
-| Red Flag | Green Flag |
-|----------|------------|
-| Nobody currently solving this problem | People paying for inferior solutions |
-| Can't name 10 specific people with the problem | Manually solved it for a few people — they loved it |
-| Only validation is "friends think it's cool" | Community actively complaining about this |
-| Need to educate people they have the problem | Can describe customer + pain in one sentence |
-| Building for a community you don't belong to | Scratching your own itch |
+## Green Flags (Worth Pursuing If...)
+
+- People are already paying for inferior solutions
+- You've manually solved this for a few people and they loved it
+- The community is actively complaining about this problem
+- You can describe the customer and their pain point in one sentence
+- You're scratching your own itch
 
 ## Tool Integration
 
-| Tool | Purpose |
-|------|---------|
-| Exa `company_research_exa` | Search for existing companies solving this problem |
-| Perplexity `perplexity_search` / `perplexity_research` | Market size, trends, competitor landscape |
-| Instant Domain Search `search_domains` | Quick domain availability check (but domain != validation) |
+Use these tools if available to help validate:
 
-Run competitor search early — existing solutions are signal, not blockers.
+- **Exa** (`company_research_exa`): Search for existing competitors and similar products
+- **Perplexity** (`perplexity_search`): Research market landscape and existing solutions
+- **Instant Domain Search** (`search_domains`): Check domain availability for business names
+
+For detailed build questions framework, see `references/four-build-questions.md`.
 
 ## Output
 
-Give a clear verdict:
-
-- **Validated** — Strong signals across all 4 steps. Proceed to MVP.
-- **Needs more validation** — Specific next steps to gather missing evidence.
-- **Pivot** — Fundamental problems found. Suggest alternative directions.
+Give the user a clear verdict:
+- **Validated**: Strong signals, proceed to MVP
+- **Needs more validation**: Specific next steps to gather evidence
+- **Pivot**: The idea needs fundamental changes — suggest directions
