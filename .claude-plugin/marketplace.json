@@ -1,0 +1,16 @@
+{
+  "name": "minimalist-entrepreneur",
+  "owner": {
+    "name": "Sahil Lavingia"
+  },
+  "metadata": {
+    "description": "Claude Code skills based on The Minimalist Entrepreneur by Sahil Lavingia. Frameworks for building a profitable, sustainable business starting from community."
+  },
+  "plugins": [
+    {
+      "name": "minimalist-entrepreneur",
+      "source": "./",
+      "description": "Claude Code skills based on The Minimalist Entrepreneur by Sahil Lavingia. Frameworks for building a profitable, sustainable business starting from community."
+    }
+  ]
+}
