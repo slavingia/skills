@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Plan"
+  short_description: "Build a content-first growth plan"
+  default_prompt: "Use $marketing-plan to create a content-first marketing plan with channels, cadence, email capture, and when to avoid ads."

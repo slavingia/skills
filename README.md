@@ -1,34 +1,48 @@
-# The Minimalist Entrepreneur — Claude Code Skills
+# The Minimalist Entrepreneur — Codex Skills
 
-Claude Code skills based on [The Minimalist Entrepreneur](https://www.minimalistentrepreneur.com/) by Sahil Lavingia.
+Codex skills based on [The Minimalist Entrepreneur](https://www.minimalistentrepreneur.com/) by Sahil Lavingia.
 
-## Installation
+## Install For Codex
 
-Clone the repo locally, then install as a Claude Code plugin:
+Clone the repo locally:
 
 ```bash
-git clone https://github.com/slavingia/skills.git ~/.claude/plugins/skills
+git clone https://github.com/slavingia/skills.git ~/src/minimalist-entrepreneur-skills
 ```
 
-Then in Claude Code:
+Install one or more skills into `~/.codex/skills`:
 
+```bash
+mkdir -p ~/.codex/skills
+cp -R ~/src/minimalist-entrepreneur-skills/skills/* ~/.codex/skills/
 ```
-/plugin install ~/.claude/plugins/skills
+
+If you want the repo to stay live-linked while you edit it locally, symlink individual skills instead of copying them:
+
+```bash
+mkdir -p ~/.codex/skills
+ln -sfn ~/src/minimalist-entrepreneur-skills/skills/find-community ~/.codex/skills/find-community
 ```
+
+Restart Codex after installing or updating skills.
+
+## Using The Skills
+
+Codex can pick these skills implicitly from natural-language requests, or you can invoke them explicitly with `$skill-name`.
 
 ## Skills
 
-| Skill | Command | When to use |
-|-------|---------|-------------|
-| **Find Community** | `/find-community` | Looking for a business idea, trying to find your community |
-| **Validate Idea** | `/validate-idea` | Testing if a business idea is worth pursuing |
-| **MVP** | `/mvp` | Ready to build your first product, struggling with scope |
-| **First Customers** | `/first-customers` | Have a product, need to find your first 100 customers |
-| **Pricing** | `/pricing` | Setting prices, considering price changes |
-| **Marketing Plan** | `/marketing-plan` | Have product-market fit, ready to scale with content |
-| **Grow Sustainably** | `/grow-sustainably` | Making decisions about spending, hiring, or scaling |
-| **Company Values** | `/company-values` | Defining culture, preparing to hire |
-| **Minimalist Review** | `/minimalist-review` | Gut-checking any business decision |
+| Skill | Explicit invocation | When to use |
+|-------|---------------------|-------------|
+| **Find Community** | `$find-community` | Looking for a business idea or deciding which community to serve |
+| **Validate Idea** | `$validate-idea` | Testing whether a business idea is worth pursuing before building |
+| **MVP** | `$mvp` | Scoping the smallest product or service you can ship quickly |
+| **First Customers** | `$first-customers` | Getting early customers through direct outreach and feedback |
+| **Pricing** | `$pricing` | Setting an initial price, pricing model, or future tiers |
+| **Marketing Plan** | `$marketing-plan` | Building a content-first marketing plan after early traction |
+| **Grow Sustainably** | `$grow-sustainably` | Making spending, hiring, fundraising, or scaling decisions |
+| **Company Values** | `$company-values` | Defining culture, values, and hiring signals |
+| **Minimalist Review** | `$minimalist-review` | Gut-checking a business decision and simplifying the plan |
 
 ## The Minimalist Entrepreneur Journey
 

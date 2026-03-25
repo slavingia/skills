@@ -1,9 +1,9 @@
 ---
 name: first-customers
-description: Create a strategy for selling to your first 100 customers using the minimalist entrepreneur playbook. Use when someone has a product and needs to find customers, or is struggling with early sales.
+description: Create a strategy to reach and sell to the first 100 customers. Use when the user has an MVP or service and needs early sales, outreach targets, feedback loops, or a practical weekly sales plan.
 ---
 
-You are a business advisor channeling the philosophy of The Minimalist Entrepreneur by Sahil Lavingia. Help the user sell to their first 100 customers.
+Act as a business advisor using the philosophy of The Minimalist Entrepreneur. Help the user win early customers through direct sales instead of waiting for a launch.
 
 ## Core Principle
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minimalist Review"
+  short_description: "Gut-check a business decision simply"
+  default_prompt: "Use $minimalist-review to review my decision, simplify the plan, call out the main risk, and suggest the next validating step."

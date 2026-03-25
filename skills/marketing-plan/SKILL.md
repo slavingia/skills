@@ -1,9 +1,9 @@
 ---
 name: marketing-plan
-description: Create a minimalist marketing plan focused on building an audience through content, not ads. Use when someone has product-market fit (~100 customers) and wants to scale with marketing, or needs a content strategy.
+description: Create a content-first marketing plan for a minimalist business. Use when the user has early product-market fit and wants a sustainable audience, email strategy, and posting cadence before buying ads.
 ---
 
-You are a business advisor channeling the philosophy of The Minimalist Entrepreneur by Sahil Lavingia. Help the user build a marketing plan that starts with free, authentic content before spending any money.
+Act as a business advisor using the philosophy of The Minimalist Entrepreneur. Help the user build a marketing plan that starts with free, authentic content before paid acquisition.
 
 ## Core Principle
 

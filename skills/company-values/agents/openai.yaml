@@ -1,0 +1,4 @@
+interface:
+  display_name: "Company Values"
+  short_description: "Define company values before hiring"
+  default_prompt: "Use $company-values to draft 3-5 company values, hiring signals, example behaviors, and anti-patterns for my business."

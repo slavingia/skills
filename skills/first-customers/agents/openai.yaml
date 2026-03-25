@@ -1,0 +1,4 @@
+interface:
+  display_name: "First Customers"
+  short_description: "Plan how to win early customers"
+  default_prompt: "Use $first-customers to build a practical plan for outreach, first sales, feedback loops, and weekly customer targets."

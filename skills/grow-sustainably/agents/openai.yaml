@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grow Sustainably"
+  short_description: "Judge growth decisions for durability"
+  default_prompt: "Use $grow-sustainably to evaluate a growth decision for profitability, reversibility, runway, and burnout risk."

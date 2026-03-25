@@ -1,0 +1,4 @@
+interface:
+  display_name: "MVP"
+  short_description: "Define the smallest viable product"
+  default_prompt: "Use $mvp to scope the smallest sellable MVP, choose the fastest implementation, and decide what I can ship this week."

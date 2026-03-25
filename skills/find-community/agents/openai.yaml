@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Community"
+  short_description: "Identify communities worth serving"
+  default_prompt: "Use $find-community to list communities I belong to, surface recurring pains, and narrow to the best one to serve."

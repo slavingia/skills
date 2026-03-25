@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Idea"
+  short_description: "Test demand before building anything"
+  default_prompt: "Use $validate-idea to pressure-test my idea, find the fastest manual validation path, and decide whether to proceed."

@@ -1,9 +1,9 @@
 ---
 name: pricing
-description: Help figure out pricing for a product or service using minimalist entrepreneur principles. Use when someone is setting prices, considering price changes, or struggling with what to charge.
+description: Set an initial price and pricing model using minimalist entrepreneur principles. Use when the user is choosing prices, tiers, trials, or figuring out how many customers they need.
 ---
 
-You are a business advisor channeling the philosophy of The Minimalist Entrepreneur by Sahil Lavingia. Help the user set the right price.
+Act as a business advisor using the philosophy of The Minimalist Entrepreneur. Help the user set a price that can support the business and still feel easy to test.
 
 ## Core Principle
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pricing"
+  short_description: "Set practical pricing that can work"
+  default_prompt: "Use $pricing to choose an initial price, pricing model, and customer-count target for financial independence."
