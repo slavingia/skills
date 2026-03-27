@@ -11,7 +11,7 @@ In Claude Code:
 /plugin install minimalist-entrepreneur
 ```
 
-That's it — Claude Code will fetch the repo and register all 10 skills automatically.
+That's it — Claude Code will fetch the repo and register all 11 skills automatically.
 
 <details>
 <summary>Alternative: install from a local clone</summary>
@@ -42,6 +42,7 @@ Then in Claude Code:
 | **Marketing Plan** | `/marketing-plan` | Have product-market fit, ready to scale with content |
 | **Grow Sustainably** | `/grow-sustainably` | Making decisions about spending, hiring, or scaling |
 | **Company Values** | `/company-values` | Defining culture, preparing to hire |
+| **Delegate** | `/delegate` | Ready to write code, want to delegate implementation to Codex |
 | **Minimalist Review** | `/minimalist-review` | Gut-checking any business decision |
 
 ## The Minimalist Entrepreneur Journey
@@ -52,6 +53,7 @@ The skills follow the book's progression:
 2. **Validate** — Make sure the problem is worth solving
 3. **Build** — Ship a manual process, then productize it
 4. **Processize** — Turn your product idea into a manual process you can deliver today
+4b. **Delegate** — Hand code implementation to Codex, keep Claude for planning
 5. **Sell** — Get to 100 customers one by one
 6. **Price** — Charge something from day one
 7. **Market** — Build an audience through content
