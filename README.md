@@ -2,7 +2,7 @@
 
 Claude Code skills based on [The Minimalist Entrepreneur](https://www.minimalistentrepreneur.com/) by Sahil Lavingia.
 
-## Installation
+## Installation guide
 
 In Claude Code:
 
