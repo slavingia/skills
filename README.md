@@ -58,3 +58,4 @@ The skills follow the book's progression:
 8. **Grow** — Stay profitable, grow sustainably
 9. **Culture** — Build the house you want to live in
 10. **Review** — Apply minimalist principles to every decision
+My changes from Jagruti
