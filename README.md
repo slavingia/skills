@@ -11,7 +11,7 @@ In Claude Code:
 /plugin install minimalist-entrepreneur
 ```
 
-That's it — Claude Code will fetch the repo and register all 10 skills automatically.
+That's it — Claude Code will fetch the repo and register all 11 skills automatically.
 
 <details>
 <summary>Alternative: install from a local clone</summary>
@@ -43,6 +43,7 @@ Then in Claude Code:
 | **Grow Sustainably** | `/grow-sustainably` | Making decisions about spending, hiring, or scaling |
 | **Company Values** | `/company-values` | Defining culture, preparing to hire |
 | **Minimalist Review** | `/minimalist-review` | Gut-checking any business decision |
+| **First Hire** | `/first-hire` | Deciding if, when, and who to hire first |
 
 ## The Minimalist Entrepreneur Journey
 
