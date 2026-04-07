@@ -6,5 +6,18 @@
     "name": "Sahil Lavingia"
   },
   "repository": "https://github.com/slavingia/skills",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "skills/company-values/SKILL.md",
+    "skills/find-community/SKILL.md",
+    "skills/first-customers/SKILL.md",
+    "skills/grow-sustainably/SKILL.md",
+    "skills/marketing-plan/SKILL.md",
+    "skills/minimalist-review/SKILL.md",
+    "skills/mvp/SKILL.md",
+    "skills/pricing/SKILL.md",
+    "skills/processize/SKILL.md",
+    "skills/validate-idea/SKILL.md"
+  ]
 }
+
