@@ -8,16 +8,15 @@
   "repository": "https://github.com/slavingia/skills",
   "license": "MIT",
   "skills": [
-    "skills/company-values/SKILL.md",
-    "skills/find-community/SKILL.md",
-    "skills/first-customers/SKILL.md",
-    "skills/grow-sustainably/SKILL.md",
-    "skills/marketing-plan/SKILL.md",
-    "skills/minimalist-review/SKILL.md",
-    "skills/mvp/SKILL.md",
-    "skills/pricing/SKILL.md",
-    "skills/processize/SKILL.md",
-    "skills/validate-idea/SKILL.md"
+    "./skills/company-values/",
+    "./skills/find-community/",
+    "./skills/first-customers/",
+    "./skills/grow-sustainably/",
+    "./skills/marketing-plan/",
+    "./skills/minimalist-review/",
+    "./skills/mvp/",
+    "./skills/pricing/",
+    "./skills/processize/",
+    "./skills/validate-idea/"
   ]
 }
-
