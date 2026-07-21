@@ -10,6 +10,10 @@ In Claude Code:
 /plugin marketplace add slavingia/skills
 /plugin install minimalist-entrepreneur
 ```
+### For other agents using [skills.sh](https://www.skills.sh/slavingia/skills)
+```bash
+npx skills add slavingia/skills
+```
 
 That's it — Claude Code will fetch the repo and register all 10 skills automatically.
 
