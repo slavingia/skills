@@ -1,0 +1,15 @@
+# Ignore vendored upstream source snapshots (rebuild with the commands in
+# analyses/<name>/README.md)
+sources/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
